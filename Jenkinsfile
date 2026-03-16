@@ -1,6 +1,7 @@
 pipeline {
     agent any
     stages {
+        
         stage('Checkout') {
             steps {
                 git 'https://github.com/secret-moctar/Jenkins.git'
